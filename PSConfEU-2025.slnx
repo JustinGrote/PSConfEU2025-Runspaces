@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Runspace-DeepDive/" />
+  <Folder Name="/Runspace-DeepDive/BinaryModule/" />
+  <Folder Name="/Runspace-DeepDive/BinaryModule/src/">
+    <Project Path="Runspace-DeepDive/BinaryModule/src/BinaryModule.csproj" />
+  </Folder>
+</Solution>
