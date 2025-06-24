@@ -18,7 +18,9 @@
 				"powershell.pester.useLegacyCodeLens": false
 			}
 		}
-	}
+	},
+
+	"postCreateCommand": "pwsh -f .devcontainer/postCreate.ps1"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
