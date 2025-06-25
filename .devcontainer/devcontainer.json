@@ -3,7 +3,7 @@
 {
 	"name": "Runspace DeepDive",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:1-9.0-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-9.0-noble",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -20,7 +20,7 @@
 		}
 	},
 
-	"postCreateCommand": "pwsh -f .devcontainer/postCreate.ps1"
+	"postCreateCommand": "pwsh -nop -noni -f .devcontainer/updateContent.ps1"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
