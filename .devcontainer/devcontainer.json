@@ -15,7 +15,8 @@
 				"dotnet.defaultSolution": "PSConfEU-2025.slnx",
 				"pester.runTestsInNewProcess": true,
 				"powershell.pester.codeLens": false,
-				"powershell.pester.useLegacyCodeLens": false
+				"powershell.pester.useLegacyCodeLens": false,
+				"powershell.promptToUpdatePowerShell": false
 			}
 		}
 	},

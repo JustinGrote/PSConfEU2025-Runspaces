@@ -1,0 +1,6 @@
+{
+	"github-actions.workflows.pinned.workflows": [
+		"Server/.github/workflows/ci-test.yml",
+		"dynamic/codespaces/create_codespaces_prebuilds"
+	]
+}
