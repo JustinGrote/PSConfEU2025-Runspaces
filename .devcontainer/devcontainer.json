@@ -20,7 +20,7 @@
 		}
 	},
 
-	"postCreateCommand": "pwsh -nop -noni -f .devcontainer/updateContent.ps1"
+	"updateContentCommand": "pwsh -nop -noni -f .devcontainer/updateContent.ps1"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
