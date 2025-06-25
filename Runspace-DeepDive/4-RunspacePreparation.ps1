@@ -1,5 +1,3 @@
-# Slide 3 - Preparing a Runspace
-
 # Preparation is done using the InitialSessionState class. We build the
 # InitialSessionState object and then pass it to the RunspaceFactory
 $iss = [System.Management.Automation.Runspaces.InitialSessionState]::CreateDefault2()
@@ -169,5 +167,3 @@ $ps.AddScript('Get-Command -ListImported').Invoke() |
     Format-Table
 $ps.Dispose()
 $runspace.Dispose()
-
-# TODO: Add APIs around PowerShell and how to enumerate the streams and host output
